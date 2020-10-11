@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="InnovationLab UI Automation Suite" >
+    <parameter name="Screenshot" value="Yes"></parameter>
+    <test name="UI : Test Cases">
+        <classes>
+            <class name="Sanity.BaseTest"/>
+        </classes>
+    </test>
+</suite>
